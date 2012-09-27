@@ -3,9 +3,8 @@ project(roslisp)
 find_package(catkin REQUIRED)
 
 catkin_stack()
+catkin_package(CFG_EXTRAS roslisp-extras.cmake)
 
-catkin_project(roslisp
-  CFG_EXTRAS roslisp-extras.cmake)
 add_subdirectory(env-hooks)
 
 foreach(dir
@@ -36,3 +35,9 @@ install(DIRECTORY scripts
   PATTERN ".svn" EXCLUDE
   PATTERN "genmsg_lisp.py" EXCLUDE)
 
+# install legacy infrastructure needed by rosbuild
+install(FILES rosbuild/roslisp.cmake
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild)
+install(PROGRAMS
+        rosbuild/scripts/genmsg_lisp.py
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild/scripts)

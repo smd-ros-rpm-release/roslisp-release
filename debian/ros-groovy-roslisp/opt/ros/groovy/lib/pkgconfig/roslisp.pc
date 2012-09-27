@@ -1,0 +1,6 @@
+Name: roslisp
+Description: Description of roslisp
+Version: 1.9.0
+Cflags: -I
+Libs: -L/opt/ros/groovy/lib 
+Requires: 

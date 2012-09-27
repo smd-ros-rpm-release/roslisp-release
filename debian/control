@@ -1,0 +1,16 @@
+Source: ros-groovy-roslisp
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-roslisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ros-comm,sbcl,ros-groovy-ros
+Description: Lisp client library for ROS, the Robot Operating System.
+ .
+ This stack contains the packages:
+ * roslisp: This package is a Lisp client library for ROS, the Robot Operating System.
+

@@ -1,0 +1,13 @@
+Package: ros-groovy-roslisp
+Version: 1.9.0-0precise
+Architecture: amd64
+Maintainer: Lorenz Moesenlechner <moesenle@cs.tum.edu>
+Installed-Size: 583
+Depends: python-yaml, ros-groovy-ros-comm, sbcl, ros-groovy-ros, ros-groovy-langs
+Section: misc
+Priority: extra
+Homepage: http://www.ros.org/wiki/roslisp
+Description: This package is a Lisp client library for ROS, the Robot Operating System.
+ .
+ This stack contains the packages:
+ * roslisp: This package is a Lisp client library for ROS, the Robot Operating System.

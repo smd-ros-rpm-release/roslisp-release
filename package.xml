@@ -1,6 +1,6 @@
 <package>
   <name>roslisp</name>
-  <version>1.9.11</version>
+  <version>1.9.12</version>
   <description>Lisp client library for ROS, the Robot Operating System.</description>
   <maintainer email="moesenle@cs.tum.edu">Lorenz Moesenlechner</maintainer>
   <license>BSD</license>
@@ -12,7 +12,8 @@
 
   <url>http://ros.org/wiki/roslisp</url>
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
   <run_depend>roslang</run_depend>
   <run_depend>sbcl</run_depend>
   <run_depend>rospack</run_depend>

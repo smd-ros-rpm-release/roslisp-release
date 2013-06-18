@@ -1,3 +1,3 @@
 [git-buildpackage]
-upstream-branch=release/roslisp/1.9.11
+upstream-branch=@(release_tag)
 upstream-tree=branch

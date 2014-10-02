@@ -1,3 +1,24 @@
+## roslisp (hydro) - 1.9.17-0
+
+The packages in the `roslisp` repository were released into the `hydro` distro by running `/usr/bin/bloom-release roslisp --track hydro --rosdistro hydro` on `Thu, 02 Oct 2014 11:22:46 -0000`
+
+The `roslisp` package was released.
+
+Version of package(s) in repository `roslisp`:
+- upstream repository: git://github.com/ros/roslisp.git
+- release repository: https://github.com/ros-gbp/roslisp-release.git
+- rosdistro version: `1.9.15-0`
+- old version: `1.9.15-0`
+- new version: `1.9.17-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## roslisp - 1.9.15-0
 
 User `dthomas@drudge` released the packages in the `roslisp` repository by running `/usr/bin/bloom-release -r indigo -t indigo roslisp` on `Tue, 11 Feb 2014 19:00:13 -0000`
